@@ -1,0 +1,14 @@
+hash_data:
+    path: /tests/hash
+    controller: App\Controller\TestsController::hash
+    methods: [GET]
+
+cat_say:
+    path: /tests/cat
+    controller: App\Controller\TestsController::catSay
+    methods: [GET]
+
+postman_report:
+    path: /tests/postman
+    controller: App\Controller\TestsController::postmanReport
+    methods: [GET]
